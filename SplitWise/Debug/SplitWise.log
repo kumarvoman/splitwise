@@ -1,0 +1,12 @@
+﻿  SelfPayPaymentStrategy.cpp
+  Auditable.cpp
+  Expense.cpp
+  ExpenseController.h
+  Group.cpp
+  SplitByPercentStrategy.cpp
+  SplitWise.cpp
+  User.cpp
+  UserController.h
+  UserException.cpp
+  Generating Code...
+  SplitWise.vcxproj -> C:\utility\SplitWise\Debug\SplitWise.exe
