@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{3b5a4df1-3cf2-4d80-8bbc-fd97155a1813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Repositories">
+      <UniqueIdentifier>{4a49c3d7-509a-4d1d-98d7-9e95088b954f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{dc5a2717-acb8-4462-8fa3-a655e1fde504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Strategy">
+      <UniqueIdentifier>{3bc2326c-396c-4eb3-bdec-7bcd78b9e5ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exception">
+      <UniqueIdentifier>{72c1978c-b36a-47f5-983d-6b760e343439}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SplitWise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Expense.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Group.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\User.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Exceptions\UserException.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\SplitByPercentStrategy.cpp">
+      <Filter>Source Files\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Auditable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\ExpenseController.h">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\UserController.h">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\SelfPayPaymentStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header files\Auditable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Expense.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Repositories\IExpenseRepo.h">
+      <Filter>Source Files\Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Repositories\IUserRepo.h">
+      <Filter>Source Files\Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Exception\UserException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Strategy\SplitByPercentStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Repositories\UserRepo.h">
+      <Filter>Source Files\Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Strategy\IPaymentStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Strategy\ISplitStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Strategy\SelfPayPayementStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Repositories\ExpenseRepo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
